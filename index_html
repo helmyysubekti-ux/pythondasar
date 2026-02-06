@@ -3,128 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio | Helmyy Subekti</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background: #f4f6f8;
-            color: #333;
-        }
-
-        header {
-            background: linear-gradient(135deg, #00c6ff, #0072ff);
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 36px;
-        }
-
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-        }
-
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-
-        .card {
-            background: white;
-            padding: 25px;
-            margin-bottom: 25px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            margin-bottom: 15px;
-            color: #0072ff;
-        }
-
-        ul {
-            margin-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        .projects a {
-            display: block;
-            text-decoration: none;
-            color: #0072ff;
-            margin-bottom: 10px;
-        }
-
-        .projects a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #222;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <h1>Helmyy Subekti</h1>
-    <p>Student | Beginner Python & GUI Developer</p>
+    <p>Student | Python & GUI Developer</p>
 </header>
 
-<section>
-    <div class="card">
+<main>
+    <section class="card">
         <h2>👋 Tentang Saya</h2>
         <p>
-            Saya adalah pelajar yang sedang belajar pemrograman Python,
-            khususnya GUI menggunakan Tkinter dan PySimpleGUI.
-            Saya tertarik membuat aplikasi sederhana seperti kasir,
-            parkir, dan manajemen data.
+            Saya adalah pelajar yang sedang belajar pemrograman,
+            khususnya Python GUI menggunakan Tkinter dan PySimpleGUI.
         </p>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <h2>🛠 Skill</h2>
         <ul>
             <li>Python</li>
             <li>Tkinter</li>
             <li>PySimpleGUI</li>
-            <li>HTML & CSS dasar</li>
-            <li>Git & GitHub</li>
+            <li>HTML & CSS</li>
+            <li>GitHub</li>
         </ul>
-    </div>
+    </section>
 
-    <div class="card projects">
+    <section class="card">
         <h2>📂 Project</h2>
-        <a href="#">💻 Program Kasir (Python Tkinter)</a>
-        <a href="#">🚗 Program Parkir (Python GUI)</a>
-        <a href="#">🎓 Program Data Siswa</a>
-    </div>
+        <a href="#">Program Kasir</a>
+        <a href="#">Program Parkir</a>
+        <a href="#">Program Data Siswa</a>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <h2>📞 Kontak</h2>
         <p>Email: helmyy@example.com</p>
         <p>GitHub: github.com/helmyysubekti</p>
-    </div>
-</section>
+    </section>
+</main>
 
 <footer>
-    <p>© 2026 Helmyy Subekti | Portfolio</p>
+    <p>© 2026 Helmyy Subekti</p>
 </footer>
 
 </body>
 </html>
+
 
