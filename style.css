@@ -11,24 +11,24 @@ body {
 }
 
 /* HEADER */
-header {
+.header {
     background: linear-gradient(135deg, #00c6ff, #0072ff);
     color: white;
-    padding: 50px 20px;
     text-align: center;
+    padding: 50px 20px;
 }
 
-header h1 {
+.header h1 {
     font-size: 36px;
 }
 
-header p {
+.header p {
     font-size: 18px;
     margin-top: 10px;
 }
 
-/* MAIN CONTENT */
-main {
+/* CONTAINER */
+.container {
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
@@ -36,11 +36,11 @@ main {
 
 /* CARD */
 .card {
-    background: white;
+    background-color: #ffffff;
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card h2 {
@@ -56,23 +56,10 @@ main {
     margin-bottom: 8px;
 }
 
-/* PROJECT LINKS */
-.card a {
-    display: block;
-    color: #0072ff;
-    text-decoration: none;
-    margin-bottom: 8px;
-}
-
-.card a:hover {
-    text-decoration: underline;
-}
-
 /* FOOTER */
-footer {
+.footer {
     background-color: #222;
     color: white;
     text-align: center;
     padding: 20px;
 }
-
